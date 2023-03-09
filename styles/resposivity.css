@@ -1,0 +1,46 @@
+@media (max-width: 700px) {
+  .header {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .data-title {
+    width: 90vw;
+    font-size: 2.0rem;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .container {
+    padding: 10px !important;
+  }
+
+  .content {
+    margin-left: 0px;
+  }
+
+  .section {
+    padding: 25px;
+  }
+
+  .section-resume, .section-contacts {
+    max-width: 50vw;
+    margin: 0 auto;
+  }
+
+  .section-projects {
+    width: 150px;
+  }
+
+  .projects {
+    justify-content: space-around;
+  }
+
+  .footer, nav a {
+    margin: 0px 20px;
+    font-size: 1.0rem;
+  }
+
+
+}
