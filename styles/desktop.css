@@ -33,6 +33,10 @@ body {
   color: #565676;
 }
 
+.cursor {
+  cursor: pointer;
+}
+
 nav {
   display: flex;
   justify-content: center;

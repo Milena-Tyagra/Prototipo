@@ -96,8 +96,8 @@
           alt="Foto de telefone rosa" 
           class="logo"
         >
-        <div>
-          <span class="normal-text">(47) 99284-8725</span>
+        <div onclick="sendToWpp()">
+          <span class="normal-text cursor">(47) 99284-8725</span>
 
         </div>
       </div>
@@ -106,6 +106,18 @@
   <footer class="footer important-fonts">
     Desenvolvido por Milena Tyagra
   </footer>
+
+  <script src="../script/contact.js"></script>
+  <script>
+    function sendToWpp() {
+    const text = `Olá Milena, vi seu portfólio e gostaria de marcar uma conversa com você!`
+    const codedText = encodeURIComponent(text)
+    const wppNumber = "5547992848725"
+    const url = `https://wa.me/${wppNumber}?text=${codedText}`
+
+    window.open(url, "_blank")
+  }
+  </script>
   
 </body>
 </html>
